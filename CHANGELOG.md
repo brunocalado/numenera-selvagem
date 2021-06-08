@@ -1,3 +1,6 @@
+# 0.0.4
+melhoria nas pastas
+
 # 0.0.3
 url
 
