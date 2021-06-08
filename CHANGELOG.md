@@ -1,3 +1,6 @@
+# 0.0.5
+fonte original
+
 # 0.0.4
 melhoria nas pastas
 

@@ -1,6 +1,8 @@
 # Numenera Selvagem
 Adaptação de Numenera para Savage Worlds
 
+Você pode obter o PDF do [link](https://cartaselvagem.com/material/75/numenera):
+
 # Instalação
 
 ## Instalação pelo Foundry VTT
