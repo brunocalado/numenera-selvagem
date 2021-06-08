@@ -3,7 +3,7 @@
    "title": "Numenera Selvagem",
    "description": "",   
    "author": "Mestre Digital",
-   "version": "0.0.1",
+   "version": "0.0.3",
    "minimumCoreVersion": "0.7.9",
    "compatibleCoreVersion":"0.8.6",
    "packs": [
@@ -39,7 +39,7 @@
       "type": "system"
     }
   ],  
-  "url": "https://github.com/brunocalado/rpgnextcriticos",
-  "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",  
-  "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main"               
+  "url": "https://github.com/brunocalado/numenera-selvagem",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/numenera-selvagem/main/module.json",  
+  "download": "https://codeload.github.com/brunocalado/numenera-selvagem/zip/main"               
 }
