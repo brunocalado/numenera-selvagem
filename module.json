@@ -3,9 +3,9 @@
    "title": "Numenera Selvagem",
    "description": "",   
    "author": "Mestre Digital",
-   "version": "0.0.5",
+   "version": "0.0.6",
    "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"0.8.6",
+   "compatibleCoreVersion":"0.8.7",
    "packs": [
       {
         "name": "numenera-selvagem",
@@ -26,6 +26,13 @@
         "label": "Tabelas - Numenera Selvagem",
         "path": "packs/tabelas-numenera-selvagem.db",
         "entity": "RollTable",
+        "module": "numenera-selvagem"
+      },      
+      {
+        "name": "criaturas",
+        "label": "Criaturas",
+        "path": "packs/criaturas.db",
+        "entity": "Actor",
         "module": "numenera-selvagem"
       }           
     ],
