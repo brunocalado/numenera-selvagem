@@ -20,5 +20,8 @@ Você precisa usar com o módulo Compendium Folders.
 Podem ver alterações nas versões em [CHANGELOG](CHANGELOG.md)
 
 # License
+You can check the licensing in the following links:
 http://www.montecookgames.com/fan-support/fan-use-policy/
 https://peginc.com/licensing/
+
+If there is a problem, you can contact me at: [issue](https://github.com/brunocalado/numenera-selvagem/issues)
