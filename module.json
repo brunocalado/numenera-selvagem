@@ -3,9 +3,9 @@
    "title": "Numenera Selvagem",
    "description": "",   
    "author": "Mestre Digital",
-   "version": "0.0.8",
+   "version": "0.0.9",
    "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"1.0.0",
+   "compatibleCoreVersion":"10",
    "packs": [
       {
         "name": "numenera-selvagem",
