@@ -6,12 +6,11 @@
   "authors": [
     {
       "name": "Mestre Digital",
-      "url": "https://www.youtube.com/c/MestreDigital",
-      "flags": {}
+      "url": "https://www.youtube.com/c/MestreDigital"
     }
   ],
   
-   "version": "0.1.0",
+   "version": "0.1.1",
   
   "compatibility": {
     "minimum": "10",
@@ -21,32 +20,12 @@
   
    "packs": [
       {
+        "label": "Numenera Selvagem",
+        "type": "Adventure",
         "name": "numenera-selvagem",
-        "label": "Itens - Numenera Selvagem",
         "path": "packs/numenera-selvagem.db",
-        "type": "Item",
-        "module": "numenera-selvagem"
-      },      
-      {
-        "name": "registros-numenera-selvagem",
-        "label": "Registros - Numenera Selvagem",
-        "path": "packs/registros-numenera-selvagem.db",
-        "type": "JournalEntry",
-        "module": "numenera-selvagem"
-      },      
-      {
-        "name": "tabelas-numenera-selvagem",
-        "label": "Tabelas - Numenera Selvagem",
-        "path": "packs/tabelas-numenera-selvagem.db",
-        "type": "RollTable",
-        "module": "numenera-selvagem"
-      },      
-      {
-        "name": "criaturas",
-        "label": "Criaturas",
-        "path": "packs/criaturas.db",
-        "type": "Actor",
-        "module": "numenera-selvagem"
+        "system": "swade",
+        "private": false
       }           
     ],
     
@@ -55,13 +34,6 @@
       {
         "id": "swade",
         "type": "system"
-      }
-    ],
-    "requires": [
-      {
-        "id": "compendium-folders",
-        "type": "module",
-        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
       }
     ]
   },
