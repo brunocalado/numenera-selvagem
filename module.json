@@ -1,51 +1,71 @@
 {   
    "name": "numenera-selvagem",   
    "title": "Numenera Selvagem",
-   "description": "",   
-   "author": "Mestre Digital",
-   "version": "0.0.9",
-   "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"10",
+   "description": "", 
+   
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "https://www.youtube.com/c/MestreDigital",
+      "flags": {}
+    }
+  ],
+  
+   "version": "0.1.0",
+  
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  
    "packs": [
       {
         "name": "numenera-selvagem",
         "label": "Itens - Numenera Selvagem",
         "path": "packs/numenera-selvagem.db",
-        "entity": "Item",
+        "type": "Item",
         "module": "numenera-selvagem"
       },      
       {
         "name": "registros-numenera-selvagem",
         "label": "Registros - Numenera Selvagem",
         "path": "packs/registros-numenera-selvagem.db",
-        "entity": "JournalEntry",
+        "type": "JournalEntry",
         "module": "numenera-selvagem"
       },      
       {
         "name": "tabelas-numenera-selvagem",
         "label": "Tabelas - Numenera Selvagem",
         "path": "packs/tabelas-numenera-selvagem.db",
-        "entity": "RollTable",
+        "type": "RollTable",
         "module": "numenera-selvagem"
       },      
       {
         "name": "criaturas",
         "label": "Criaturas",
         "path": "packs/criaturas.db",
-        "entity": "Actor",
+        "type": "Actor",
         "module": "numenera-selvagem"
       }           
     ],
-  "dependencies": [{
-      "type": "module",
-      "name": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
-    },
-    {
-      "name": "swade",
-      "type": "system"
-    }
-  ],  
+    
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      }
+    ]
+  },
+  
   "url": "https://github.com/brunocalado/numenera-selvagem",
   "manifest": "https://raw.githubusercontent.com/brunocalado/numenera-selvagem/main/module.json",  
   "download": "https://codeload.github.com/brunocalado/numenera-selvagem/zip/main"               
