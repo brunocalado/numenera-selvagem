@@ -10,11 +10,11 @@
     }
   ],
   
-  "version": "0.1.2",
+  "version": "0.1.3",
   
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   
    "packs": [
