@@ -3,18 +3,13 @@
   "title": "Numenera Selvagem",
   "description": "", 
    
-  "authors": [
-    {
-      "name": "Mestre Digital",
-      "url": "https://www.youtube.com/c/MestreDigital"
-    }
-  ],
+  "authors": [],
   
-  "version": "0.1.3",
+  "version": "0.1.4",
   
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13"
   },
   
    "packs": [
